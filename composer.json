@@ -1,0 +1,6 @@
+{
+    "require": {
+        "ext-mysqli": "*",
+        "cboden/ratchet": "^0.4.4"
+    }
+}
