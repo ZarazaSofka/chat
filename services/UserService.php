@@ -67,7 +67,7 @@ class UserService {
         $users = array();
         if ($result) {
             foreach ($result->fetchAll(PDO::FETCH_ASSOC) as $row) {
-                $users[] = new User($row['id'], $row['username'], $row['email'], $row['password'], $row['role'], null, $row["action_time"]);
+                $users[] = new User($row['id'], $row['username'], $row['email'], null, $row['role'], null, $row["action_time"]);
             }
         }
 
